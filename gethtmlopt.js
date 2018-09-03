@@ -1,9 +1,8 @@
 const https = require('https');
 
 function getAndPrintHTML(requestOptions) {
-  const buffer = [];
-
   /* Add your code here */
+  const buffer = [];
   https.get(requestOptions, (res) => {
     res.setEncoding('utf-8');
 
