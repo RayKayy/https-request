@@ -8,7 +8,6 @@ const requestOptions = {
 };
 
 function printReverse(html) {
-
   const arr = html.split('');
   const result = arr.reverse().join('');
   console.log(result);
